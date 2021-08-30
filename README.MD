@@ -1,5 +1,5 @@
 ### Description
-K-Means for unsupervised document clustering and topic modeling
+Unsupervised document clustering and topic modeling using K-Means
 
 ### Instructions
 Run PP.java to execute program
