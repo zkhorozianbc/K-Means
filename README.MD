@@ -15,14 +15,8 @@ Cluster Visualization created with outside tools, is not generated with code.
 ### File Descriptions
 
 PP.java 
-
-- Driver
-- gathers data from data folders
 - preprocesses text data, creates document-term matrix
 - runs Kmeans on document-term matrix
-KMeans.java
-
-- runs kmeans on input data received from PP.java
 - "smart" kmeans (almost kmeans++) is implemented
 - standard functionality for kmeans is to randomly select k vectors from input data 
 to be initial centroids. Convergence to 100% accuracy is way better than generating
