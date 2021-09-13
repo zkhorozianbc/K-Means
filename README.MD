@@ -18,9 +18,8 @@ PP.java
 - preprocesses text data, creates document-term matrix
 - runs Kmeans on document-term matrix
 - "smart" kmeans (almost kmeans++) is implemented
-- standard functionality for kmeans is to randomly select k vectors from input data 
-to be initial centroids. Convergence to 100% accuracy is way better than generating
-random vectors
+- standard functionality of kmeans is to create k random vectors. I choose to randomly select k vectors from input data 
+to be initial centroids, which yields higher convergence rate.
 - performance function is called "purity", where a purity of 1 or 100% means that
 the true clustering of documents is achieved. I compute this by determining if 
 there exists 3 non-overlapping subsets of size 8 where each subset contains either
